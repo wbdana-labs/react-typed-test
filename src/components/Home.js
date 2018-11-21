@@ -6,26 +6,20 @@ import {
 } from '../styles/Home';
 
 const Home = () => {
-
-
-
   return (
     <HeaderContainer>
-
       <HeaderTextContainer>
         <Typed
           strings={[
-            'William Dana',
             'Will Dana',
-            '_wbdana',
             'wbdana',
           ]}
           typeSpeed={20}
           backSpeed={40}
           loop
+          smartBackspace
         />
       </HeaderTextContainer>
-
     </HeaderContainer>
   );
 };
