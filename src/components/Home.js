@@ -1,6 +1,9 @@
 import React from 'react';
-
-import { HeaderContainer } from '../styles/Home';
+import Typed from 'react-typed';
+import {
+  HeaderContainer,
+  HeaderTextContainer,
+} from '../styles/Home';
 
 const Home = () => {
 
@@ -8,7 +11,21 @@ const Home = () => {
 
   return (
     <HeaderContainer>
-      Test
+
+      <HeaderTextContainer>
+        <Typed
+          strings={[
+            'William Dana',
+            'Will Dana',
+            '_wbdana',
+            'wbdana',
+          ]}
+          typeSpeed={20}
+          backSpeed={40}
+          loop
+        />
+      </HeaderTextContainer>
+
     </HeaderContainer>
   );
 };

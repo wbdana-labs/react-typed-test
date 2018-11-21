@@ -7615,7 +7615,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.5.4, prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@^15.5.4, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   integrity sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ==
@@ -7919,6 +7919,15 @@ react-scripts@2.1.1:
     workbox-webpack-plugin "3.6.3"
   optionalDependencies:
     fsevents "1.2.4"
+
+react-typed@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-typed/-/react-typed-1.1.0.tgz#448f61452bd138d495d17e4fc83068d05156d03b"
+  integrity sha512-lHZlo/nlyVxLKwhAIO7hkNw624tP1Mf0+BduyfZXjPmOTckz4Vh/fUWKUXkgsbyduAJfyOpVE8m+fQqQrNa23Q==
+  dependencies:
+    prop-types "^15.6.0"
+    styled-components "^4.0.3"
+    typed.js "^2.0.6"
 
 react@^16.6.3:
   version "16.6.3"
@@ -8938,7 +8947,7 @@ style-loader@0.23.0:
     loader-utils "^1.1.0"
     schema-utils "^0.4.5"
 
-styled-components@^4.1.1:
+styled-components@^4.0.3, styled-components@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-4.1.1.tgz#943922048fae556e286bcbfdd29da4f1399446bc"
   integrity sha512-UzT/qyoOyKpYooeLdwKrPHZ85R8KWl8i0fbyH9I3z6B2WT9uGDCV7J4kbfKsBeSWFD9EytBriEODOkybcUFD/Q==
@@ -9241,6 +9250,11 @@ type-is@~1.6.16:
   dependencies:
     media-typer "0.3.0"
     mime-types "~2.1.18"
+
+typed.js@^2.0.6:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.0.9.tgz#2e4e590466938ecb2ef5ec966a79b2d9381495ff"
+  integrity sha512-RTv7MvbsJ0ajz3PW/o325kXo0+gZAGW9xoZQ9eXrdvTg9prvH5JgAVeAITYuh7OoGStl1yuJgcR07IO10l3Q3g==
 
 typedarray@^0.0.6:
   version "0.0.6"
