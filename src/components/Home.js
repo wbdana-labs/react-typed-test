@@ -3,6 +3,7 @@ import Typed from 'react-typed';
 import {
   HeaderContainer,
   HeaderTextContainer,
+  SubHeaderTextContainer,
 } from '../styles/Home';
 
 const Home = () => {
@@ -20,6 +21,19 @@ const Home = () => {
           smartBackspace
         />
       </HeaderTextContainer>
+
+      <SubHeaderTextContainer>
+        <Typed
+          strings={[
+            'Linda Zhang',
+            'Indy Dog',
+          ]}
+          typeSpeed={70}
+          backSpeed={40}
+          loop
+          smartBackspace
+        />
+      </SubHeaderTextContainer>
     </HeaderContainer>
   );
 };

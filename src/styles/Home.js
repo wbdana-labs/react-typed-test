@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { COLORS } from './colors';
 
 export const HeaderContainer = styled.div`
-  background-color: ${COLORS.BURNT_SIENNA};
+  background-color: ${COLORS.BOLD_FEATURE.MOUNTAIN};
   color: ${COLORS.WHITE};
   display: flex;
   flex: 1;
@@ -12,11 +12,26 @@ export const HeaderContainer = styled.div`
 
 export const HeaderTextContainer = styled.div`
   align-items: center;
-  background-color: ${COLORS.BLACK};
+  background-color: ${COLORS.BOLD_FEATURE.NAVY};
   color: ${COLORS.BLACK};
+  display: flex;
+  height: 33%;
   * {
-    color: ${COLORS.WHITE};
+    align-self: center;
+    color: ${COLORS.BOLD_FEATURE.SCRUB};
     font-size: 32px;
   };
-  height: 40%;
+`;
+
+export const SubHeaderTextContainer = styled.div`
+  align-items: center;
+  background-color: ${COLORS.BOLD_FEATURE.GOLD};
+  color: ${COLORS.BOLD_FEATURE.CORAL};
+  display: flex;
+  height: 15%;
+  * {
+    align-self: center;
+    color: ${COLORS.STORMY_HUES.EVENING};
+    font-size: 32px;
+  };
 `;
