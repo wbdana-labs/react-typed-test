@@ -15,7 +15,7 @@ const Home = () => {
             'Will Dana',
             'wbdana',
           ]}
-          typeSpeed={20}
+          typeSpeed={25}
           backSpeed={40}
           loop
           smartBackspace
