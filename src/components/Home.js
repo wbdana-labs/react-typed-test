@@ -2,25 +2,35 @@ import React from 'react';
 import Typed from 'react-typed';
 import {
   HeaderContainer,
+  MainHeaderContainer,
   HeaderTextContainer,
+  StaticHeaderContainer,
   SubHeaderTextContainer,
 } from '../styles/Home';
 
 const Home = () => {
   return (
     <HeaderContainer>
-      <HeaderTextContainer>
-        <Typed
-          strings={[
-            'Will Dana',
-            'wbdana',
-          ]}
-          typeSpeed={25}
-          backSpeed={40}
-          loop
-          smartBackspace
-        />
-      </HeaderTextContainer>
+      <MainHeaderContainer>
+
+        <StaticHeaderContainer>
+          Will Dana
+        </StaticHeaderContainer>
+
+        <HeaderTextContainer>
+          <Typed
+            strings={[
+              'Will Dana',
+              'wbdana',
+            ]}
+            typeSpeed={25}
+            backSpeed={40}
+            loop
+            smartBackspace
+          />
+        </HeaderTextContainer>
+        
+      </MainHeaderContainer>
 
       <SubHeaderTextContainer>
         <Typed

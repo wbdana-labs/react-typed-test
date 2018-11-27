@@ -10,17 +10,29 @@ export const HeaderContainer = styled.div`
   justify-content: flex-start;
 `;
 
+export const MainHeaderContainer = styled.div`
+  align-items: center;
+  background-color: ${COLORS.BOLD_FEATURE.NAVY};
+  flex-direction: column;
+  height: 33%;
+`;
+
 export const HeaderTextContainer = styled.div`
   align-items: center;
   background-color: ${COLORS.BOLD_FEATURE.NAVY};
   color: ${COLORS.BLACK};
   display: flex;
-  height: 33%;
   * {
     align-self: center;
     color: ${COLORS.BOLD_FEATURE.SCRUB};
     font-size: 32px;
   };
+`;
+
+export const StaticHeaderContainer = styled.div`
+  align-self: center;
+  color: ${COLORS.BOLD_FEATURE.SCRUB};
+  display: flex;
 `;
 
 export const SubHeaderTextContainer = styled.div`
