@@ -7,3 +7,7 @@ html, body, .app, #root {
 .app {
   display: flex;
 }
+
+.Typed {
+  align-self: center;
+}

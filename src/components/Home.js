@@ -10,15 +10,16 @@ import {
 
 const Home = () => {
   return (
-    <HeaderContainer>
-      <MainHeaderContainer>
+    <HeaderContainer className="HeaderContainer">
+      <MainHeaderContainer className="MainHeaderContainer">
 
-        <StaticHeaderContainer>
+        <StaticHeaderContainer className="StaticHeaderContainer">
           Will Dana
         </StaticHeaderContainer>
 
-        <HeaderTextContainer>
+        <HeaderTextContainer className="HeaderTextContainer">
           <Typed
+            className="Typed"
             strings={[
               'Will Dana',
               'wbdana',
@@ -32,8 +33,9 @@ const Home = () => {
         
       </MainHeaderContainer>
 
-      <SubHeaderTextContainer>
+      <SubHeaderTextContainer className="SubHeaderTextContainer">
         <Typed
+          className="Typed"
           strings={[
             'Linda Zhang',
             'Indy Dog',
